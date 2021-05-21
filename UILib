@@ -1183,7 +1183,7 @@ function Material.Load(Config)
 			DropdownButton.ImageColor3 = Theme.DropdownAccent
 			DropdownButton.ImageTransparency = 1
 			DropdownButton.Parent = DropdownToggle
-			DropdownButton.Zindex = 0
+			DropdownButton.ZIndex = 0
 
 			TweenService:Create(DropdownBar, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
 			TweenService:Create(DropdownTitle, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
